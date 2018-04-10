@@ -15,7 +15,7 @@ class App extends Component {
     unselectedDoctors: doctors
   }
   
-  componentDidMount() {
+  componentDidMount() {return DoctorCard
   };
   
   shuffleArray = array => {

@@ -7,7 +7,7 @@ const DoctorCard = props => (
       <a onClick={() => props.selectDoctor(props.name)}
         // className={props.Score === 0}
           >
-              <img alt={props.name} src={props.image} />
+              <img className="hvr-grow-shadow"alt={props.name} src={props.image} />
           </a>
       </div>
   </div>

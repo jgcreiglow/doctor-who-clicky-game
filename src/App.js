@@ -65,9 +65,9 @@ class App extends Component {
             <LazyHero
               color="#526ea2"
               opacity="0.0"
-              parallaxOffset="100"
+              parallaxOffset="60"
               transitionDuration="600"
-              minHeight="75vh"
+              minHeight="80vh"
               imageSrc="http://cultbox.co.uk/wp-content/uploads/2017/07/doctor-who-logo.jpg">
     
             </LazyHero>
@@ -88,7 +88,7 @@ class App extends Component {
                 }
  
           </div>
-          <div className="navbar footer">
+          <div className="navbar sticky-bottom footer">
             <span className="justify-content-center">
  
             </span>

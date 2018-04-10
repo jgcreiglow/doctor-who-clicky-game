@@ -1,0 +1,23 @@
+{
+  "name": "clicky-game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-lazy-hero": "^0.4.0",
+    "react-scripts": "1.1.4",
+    "homepage": "https://jgcreiglow.github.io/doctor-who-clicky-game"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages  -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+  
+}

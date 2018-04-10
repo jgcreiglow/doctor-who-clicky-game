@@ -29,7 +29,7 @@ class App extends Component {
     const findDoctor = this.state.unselectedDoctors.find(item => item.name === name);
   
     if(findDoctor === undefined) {
-        // failure to select a new doctor
+        // if you click a doctor the second time
         this.setState({ 
             message: "EXTERMINATE!",
             topScore: (this.state.Score > this.state.topScore) ? this.state.Score : this.state.topScore,
@@ -39,7 +39,7 @@ class App extends Component {
         });
     }
     else {
-        // success to select a new doctor
+        // on first click of the doctor
         const newDoctors = this.state.unselectedDoctors.filter(item => item.name !== name);
         
         this.setState({ 
@@ -56,12 +56,14 @@ class App extends Component {
   
       return (
         <div className="container-fluid">
+        {/* navbar  */}
           <Navbar
             message={this.state.message}
             Score={this.state.Score}
             topScore={this.state.topScore}
           />
           <div>
+            {/* Hero with logo */}
             <LazyHero
               color="#526ea2"
               opacity="0.0"
@@ -75,6 +77,7 @@ class App extends Component {
 
 
           <div className="row">
+          {/* Card map of images   */}
           {
                     this.state.doctors.map(doctor => (
                         <DoctorCard
@@ -88,12 +91,13 @@ class App extends Component {
                 }
  
           </div>
+          {/* footer */}
           <div className="navbar sticky-bottom footer">
             <span className="justify-content-center">
- 
+                <a href="https://github.com/jgcreiglow"><i class="fab fa-github"></i></a>
             </span>
             <span className="justify-content-center">
-              Jessica Creiglow
+              Made in DC by Jessica Creiglow
           </span>
             <span className="justify-content-center">
               2018

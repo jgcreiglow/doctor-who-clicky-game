@@ -20,7 +20,7 @@
   {
     "id": 4,
     "name": "fourth",
-    "image": "./doctor-who-clicky-game/src/components/images/fourth.png",
+    "image": "./components/images/fourth.png",
     "clicked": false
   },
   {

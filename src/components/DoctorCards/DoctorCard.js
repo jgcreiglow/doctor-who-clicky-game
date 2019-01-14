@@ -1,6 +1,6 @@
 import React from "react";
 import "./DoctorCard.css";
-
+import "../images";
 const DoctorCard = props => (
   <div className="col-md-3" >
  <div className="img-container">

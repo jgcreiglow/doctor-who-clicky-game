@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "first",
-    "image": "doctor-who-clicky-game/src/components/images/first.png",
+    "image": "./doctor-who-clicky-game/src/components/images/first.png",
     "clicked": false
   },
   {
     "id": 2,
     "name": "second",
-    "image": "doctor-who-clicky-game/src/components/images/second.png",
+    "image": "./doctor-who-clicky-game/src/components/images/second.png",
     "clicked": false
   },
   {
     "id": 3,
     "name": "third",
-    "image": "doctor-who-clicky-game/src/components/images/third.png",
+    "image": "./doctor-who-clicky-game/src/components/images/third.png",
     "clicked": false
   },
   {
     "id": 4,
     "name": "fourth",
-    "image": "doctor-who-clicky-game/src/components/images/fourth.png",
+    "image": "./doctor-who-clicky-game/src/components/images/fourth.png",
     "clicked": false
   },
   {
     "id": 5,
     "name": "fifth",
-    "image": "doctor-who-clicky-game/src/components/images/fifth.png",
+    "image": "./doctor-who-clicky-game/src/components/images/fifth.png",
     "clicked": false
   },
   {
     "id": 6,
     "name": "sixth",
-    "image": "doctor-who-clicky-game/src/components/images/sixth.png",
+    "image": "./doctor-who-clicky-game/src/components/images/sixth.png",
     "clicked": false
   },
   {
     "id": 7,
     "name": "seventh",
-    "image": "/doctor-who-clicky-game/src/components/images/seventh.png",
+    "image": "./doctor-who-clicky-game/src/components/images/seventh.png",
     "clicked": false
   },
   {
     "id": 8,
     "name": "eighth",
-    "image": "doctor-who-clicky-game/src/components/images/eighth.png",
+    "image": "./doctor-who-clicky-game/src/components/images/eighth.png",
     "clicked": false
   },
   {
     "id": 9,
     "name": "ninth",
-    "image": "doctor-who-clicky-game/src/components/images/ninth.png",
+    "image": "./components/images/ninth.png",
     "clicked": false
   },
   {
     "id": 10,
     "name": "tenth",
-    "image": "doctor-who-clicky-game/src/components/images/tenth.png",
+    "image": "./components/images/tenth.png",
     "clicked": false
   },
   {
     "id": 11,
     "name": "eleventh",
-    "image": "doctor-who-clicky-game/src/components/images/eleventh.png",
+    "image": "./components/images/eleventh.png",
     "clicked": false
   },
   {
     "id": 12,
     "name": "twelfth",
-    "image": "doctor-who-clicky-game/src/components/images/twelfth.png",
+    "image": "./components/images/twelfth.png",
     "clicked": false
   }
 ]

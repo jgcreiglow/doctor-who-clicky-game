@@ -1,5 +1,6 @@
 import React from "react";
 import "./DoctorCard.css";
+import ".///doctors.json"; 
 
 const DoctorCard = props => (
   <div className="col-md-3" >
